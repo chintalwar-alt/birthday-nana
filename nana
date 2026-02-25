@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday Nana</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        h1 {
+            font-size: 50px;
+            margin-top: 100px;
+        }
+        p {
+            font-size: 25px;
+        }
+        .box {
+            background: rgba(0,0,0,0.3);
+            padding: 30px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            background: white;
+            color: #ff4b5c;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #ff4b5c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h1>🎂 Happy Birthday Nana 🎂</h1>
+        <p>Wishing you lots of happiness, love, and success!</p>
+        <p>May your day be as special as you are 💖</p>
+        <button onclick="showMessage()">Click for Surprise 🎁</button>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Happy Birthday Nana! 🎉🎂 Stay blessed and keep smiling!");
+        }
+    </script>
+
+</body>
+</html>
